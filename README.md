@@ -16,10 +16,10 @@ A C++ console application for tracking daily expenses, built to demonstrate thre
 
 ## Concepts Demonstrated
 
-### 🔧 Dynamic Memory Allocation
+### Dynamic Memory Allocation
 A raw `Transaction*` array grows manually on the heap using `new[]` and `delete[]`. Every insert allocates a larger array, copies existing data, and frees the old memory — illustrating exactly what higher-level containers handle automatically.
 
-### 📦 STL Containers
+### STL Containers
 Two STL containers run in parallel with the DMA array:
 - `std::vector<Transaction>` — ordered list of all transactions, auto-resizing
 - `std::set<string>` — unique, sorted category names (no duplicate logic needed)
