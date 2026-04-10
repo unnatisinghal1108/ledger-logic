@@ -24,7 +24,7 @@ Two STL containers run in parallel with the DMA array:
 - `std::vector<Transaction>` — ordered list of all transactions, auto-resizing
 - `std::set<string>` — unique, sorted category names (no duplicate logic needed)
 
-### ⚡ Move Semantics (C++11)
+### Move Semantics (C++11)
 The `ExpenseSummary` class accepts a `vector<float>&&` and uses `std::move` to transfer ownership in O(1) time — avoiding an O(n) deep copy when building report data structures.
 
 ---
