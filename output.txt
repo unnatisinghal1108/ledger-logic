@@ -1,0 +1,25 @@
+===== LedgerLogic =====
+1. Add Expense
+2. View File
+3. Search Category
+4. Total Spending
+5. Monthly Report
+6. Category Report
+7. Exit
+
+Enter choice: 1
+Enter amount: 500
+Enter category: food
+Expense Added!
+
+Enter choice: 1
+Enter amount: 200
+Enter category: travel
+Expense Added!
+
+Enter choice: 4
+Total Spending: 700
+
+Enter choice: 6
+food : 500
+travel : 200
